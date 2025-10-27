@@ -82,7 +82,7 @@ Compile the Java files with the required dependency:
 javac -cp commons-math3-3.1.1.jar -source 1.8 -target 1.8 *.java
 ```
 
-![WhatsApp Image 2025-10-26 at 23 22 10_0148747c](https://github.com/user-attachments/assets/7b1b3c3a-2fce-4c03-a3df-a8b587582a5b)
+
 
 
  Note: Ignore warnings like `RSAnalysis.java uses unchecked or unsafe operations`. Compilation is successful if `.class` files are generated.
@@ -105,7 +105,6 @@ Build the JAR:
 jar cfm StegExpose.jar manifest.mf *.class
 ```
 
-<img width="1478" height="96" alt="{32B41693-9868-4C22-A6F4-82C8DEDF50A2}" src="https://github.com/user-attachments/assets/294a780e-4fdf-463c-a34e-3fcea45cef52" />
 
 
  You now have `StegExpose.jar` ready to use.
