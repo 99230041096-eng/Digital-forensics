@@ -115,7 +115,7 @@ jar cfm StegExpose.jar manifest.mf *.class
 ##  Step 3 — Run StegExpose
 
 ```bash
-java -jar StegExpose.jar "C:\Users\Sai Kumar\StegExpose\testFolder"
+java -jar StegExpose.jar "C:\Users\Rahif\StegExpose\testFolder"
 ```
 
 ---
@@ -147,7 +147,7 @@ The tool lists images with potential hidden data and estimates the approximate s
 Generate a results file for easier review:
 
 ```bash
-java -jar StegExpose.jar "C:\Users\Sai Kumar\StegExpose\testFolder" fast 0.3 results.csv
+java -jar StegExpose.jar "C:\Users\Rahif\StegExpose\testFolder" fast 0.3 results.csv
 
 
 
